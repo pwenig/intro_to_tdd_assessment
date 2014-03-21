@@ -1,5 +1,6 @@
-class Prime
-  def prime?(num)
+require 'prime'
+class PrimeCalc
+  def prime_number?(num)
     Prime.prime?(num)
   end
 end
